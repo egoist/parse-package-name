@@ -1,6 +1,6 @@
 {
   "name": "parse-package-name",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Parse package name with semver, path, scoped name support",
   "license": "MIT",
   "repository": "egoist/parse-package-name",
