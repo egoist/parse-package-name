@@ -9,6 +9,11 @@ module.exports = function (input) {
   }
 
   const matched = input.charAt(0) === '@' ? input.match(RE_SCOPED) : input.match(RE_NORMAL)
+
+  if (!matched) {
+    throw new Error(`[parse-package-name] "${input}" is not a valid string`)
+  }
+
   return {
     name: matched[1],
     path: matched[2] || '',
