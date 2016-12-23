@@ -1,0 +1,37 @@
+{
+  "name": "parse-package-name",
+  "version": "0.0.0",
+  "description": "Parse package name with semver, path, scoped name support",
+  "license": "MIT",
+  "repository": "egoist/parse-package-name",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "parse",
+    "package",
+    "name"
+  ],
+  "devDependencies": {
+    "jest-cli": "^15.1.1",
+    "eslint": "latest",
+    "eslint-config-rem": "latest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "rem/esnext"
+  }
+}
