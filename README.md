@@ -49,4 +49,4 @@ const pkg = parse('vue/dist/vue.js@2')
 **parse-package-name** © [EGOIST](https://github.com/egoist), Released under the [MIT](https://egoist.mit-license.org/) License.<br>
 Authored and maintained by EGOIST with help from contributors ([list](https://github.com/egoist/parse-package-name/contributors)).
 
-> [egoistian.com](https://egoistian.com) · GitHub [@egoist](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)
+> [egoist.moe](https://egoist.moe) · GitHub [@egoist](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)
