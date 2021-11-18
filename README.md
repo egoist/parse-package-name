@@ -19,7 +19,7 @@ import { parse } from 'parse-package-name'
 
 parse('@egoist/foo@1.0.0/bar.js')
 //=>
-// {name:'@egoist/foo', version:'1.0.0', path:'bar.js'}
+// {name:'@egoist/foo', version:'1.0.0', path:'/bar.js'}
 ```
 
 `version` defaults to `latest` if not specified, `path` defaults to an empty string if not specified.
