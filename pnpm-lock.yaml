@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@egoist/prettier-config': 0.1.0
-  '@sucrase/jest-plugin': 2.2.0
+  '@sucrase/jest-plugin': 2.2.1
   '@types/jest': 27.0.2
   jest: 27.3.1
   prettier: 2.4.1
@@ -11,7 +11,7 @@ specifiers:
 
 devDependencies:
   '@egoist/prettier-config': 0.1.0
-  '@sucrase/jest-plugin': 2.2.0
+  '@sucrase/jest-plugin': 2.2.1
   '@types/jest': 27.0.2
   jest: 27.3.1
   prettier: 2.4.1
@@ -180,6 +180,8 @@ packages:
     resolution: {integrity: sha512-PhuoqeHoO9fc4ffMEVk4qb/w/s2iOSWohvbHxLtxui0eBg3Lg5gN1U8wp1V1u61hOWkPQJJyJzGH6Y+grwkq8Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.13.0
     dev: true
 
   /@babel/plugin-syntax-async-generators/7.8.4_@babel+core@7.13.10:
@@ -580,8 +582,8 @@ packages:
       '@sinonjs/commons': 1.8.2
     dev: true
 
-  /@sucrase/jest-plugin/2.2.0:
-    resolution: {integrity: sha512-eBWmp771YXm0wIftlse4siG98J3HRnZBojhSrvPGYgj+R9Kbf1QeJGMr6iNC0e/0qlKkw01Ig3H8KjPVwUqiGQ==}
+  /@sucrase/jest-plugin/2.2.1:
+    resolution: {integrity: sha512-5fG+kHOlfwPNi82MCvTFQdAg50YQymGbdwH9nzTA9D9FhJVHynTjadXi58gb/Ae17RMvinY0+Fglx33MB056Rg==}
     dependencies:
       sucrase: 3.20.3
     dev: true
