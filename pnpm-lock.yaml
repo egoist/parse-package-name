@@ -5,7 +5,7 @@ specifiers:
   '@sucrase/jest-plugin': 2.2.0
   '@types/jest': 27.0.2
   jest: 27.3.1
-  prettier: 2.4.1
+  prettier: 2.7.1
   tsup: 5.7.2
   typescript: 4.5.2
 
@@ -14,7 +14,7 @@ devDependencies:
   '@sucrase/jest-plugin': 2.2.0
   '@types/jest': 27.0.2
   jest: 27.3.1
-  prettier: 2.4.1
+  prettier: 2.7.1
   tsup: 5.7.2_typescript@4.5.2
   typescript: 4.5.2
 
@@ -180,6 +180,8 @@ packages:
     resolution: {integrity: sha512-PhuoqeHoO9fc4ffMEVk4qb/w/s2iOSWohvbHxLtxui0eBg3Lg5gN1U8wp1V1u61hOWkPQJJyJzGH6Y+grwkq8Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.13.0
     dev: true
 
   /@babel/plugin-syntax-async-generators/7.8.4_@babel+core@7.13.10:
@@ -2548,8 +2550,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.4.1:
-    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
+  /prettier/2.7.1:
+    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
