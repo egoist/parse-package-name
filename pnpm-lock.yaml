@@ -7,7 +7,7 @@ specifiers:
   jest: 27.3.1
   prettier: 2.4.1
   tsup: 5.7.2
-  typescript: 4.5.2
+  typescript: 4.7.4
 
 devDependencies:
   '@egoist/prettier-config': 0.1.0
@@ -15,8 +15,8 @@ devDependencies:
   '@types/jest': 27.0.2
   jest: 27.3.1
   prettier: 2.4.1
-  tsup: 5.7.2_typescript@4.5.2
-  typescript: 4.5.2
+  tsup: 5.7.2_typescript@4.7.4
+  typescript: 4.7.4
 
 packages:
 
@@ -180,6 +180,8 @@ packages:
     resolution: {integrity: sha512-PhuoqeHoO9fc4ffMEVk4qb/w/s2iOSWohvbHxLtxui0eBg3Lg5gN1U8wp1V1u61hOWkPQJJyJzGH6Y+grwkq8Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.13.0
     dev: true
 
   /@babel/plugin-syntax-async-generators/7.8.4_@babel+core@7.13.10:
@@ -2897,7 +2899,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /tsup/5.7.2_typescript@4.5.2:
+  /tsup/5.7.2_typescript@4.7.4:
     resolution: {integrity: sha512-YxryYjhB54h8YUNlN7Oze9PnqcuN++vwrFW6qtjC1ve9eQPvzCJw0rN0WPOuEQXburwo+gtDid9C4eQZ6x/Yog==}
     hasBin: true
     peerDependencies:
@@ -2919,7 +2921,7 @@ packages:
       rollup: 2.58.3
       sucrase: 3.20.3
       tree-kill: 1.2.2
-      typescript: 4.5.2
+      typescript: 4.7.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2947,8 +2949,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript/4.5.2:
-    resolution: {integrity: sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==}
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
